@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="QgToB9l0p4TyKqCIYyQR_f-6HwpgmfvjFNr6MkPN0-A" />
-    <title>mrpestic YouTube Manager</title>
+    <title>UpProfi Video Publishing Tool</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
@@ -22,6 +22,12 @@
         h2 {
             color: #5f6368;
             margin-top: 30px;
+        }
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 14px;
         }
         .contact {
             background: #f1f3f4;
@@ -46,28 +52,52 @@
     </style>
 </head>
 <body>
-    <h1>mrpestic YouTube Manager</h1>
-    
+    <h1>UpProfi Video Publishing Tool</h1>
+
     <h2>About</h2>
     <p>
-        YouTube Control is a personal automation tool designed for scheduled content management 
-        and video uploads to YouTube channels. This application helps streamline the process 
-        of managing multiple YouTube channels efficiently.
+        UpProfi Video Publishing Tool is a personal automation tool for scheduled video publishing
+        and content management on YouTube channels owned and operated by the application owner.
+        Only channels owned by the owner authorize the application. It is not offered to the public.
     </p>
 
     <h2>Features</h2>
     <p>
-        • Automated video uploads<br>
-        • Scheduled content publishing<br>
+        • Automated video uploads with title, description and tags<br>
+        • Custom thumbnails for uploaded videos<br>
+        • Scheduled publishing (publish date and time)<br>
+        • Editing video details after upload (title, description, thumbnail, privacy, publish time)<br>
+        • Posting a comment under the channel's own uploaded videos<br>
+        • Reading comments on the channel's own videos<br>
+        • Per-video performance summary based on YouTube Analytics reports, including revenue reports<br>
         • Multi-channel management<br>
         • Secure OAuth 2.0 authentication
     </p>
 
+    <h2>Google Permissions Used</h2>
+    <p>
+        • <code>youtube.force-ssl</code> — uploading videos, thumbnails, scheduling, editing after upload,
+        posting and reading comments on the channel's own videos<br>
+        • <code>yt-analytics-monetary.readonly</code> — read-only access to YouTube Analytics reports,
+        including revenue reports, for the channel's own videos
+    </p>
+    <p>
+        Analytics metrics are shown exactly as returned by the YouTube Analytics API, under their original names.
+        The application does not calculate its own scores, ratings or revenue projections.
+    </p>
+
     <h2>Data & Privacy</h2>
     <p>
-        This application only accesses your YouTube channel data for the purpose of uploading 
-        and managing videos. All authentication tokens are stored securely and never shared 
-        with third parties.
+        This application only accesses YouTube channel data for the purposes listed above.
+        All data is processed locally on the owner's computer, authentication tokens are stored securely,
+        and no data is ever sold or shared with third parties.
+    </p>
+    <p>
+        This application uses YouTube API Services. By authorizing it you agree to the
+        <a href="https://www.youtube.com/t/terms" target="_blank">YouTube Terms of Service</a>.
+        See also the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.
+        You can revoke access at any time at
+        <a href="https://myaccount.google.com/permissions" target="_blank">myaccount.google.com/permissions</a>.
     </p>
     <p>
         For detailed information, please read our <a href="privacy.html">Privacy Policy</a>.
@@ -82,7 +112,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 YouTube Control. Personal automation tool.</p>
+        <p>&copy; 2026 UpProfi Video Publishing Tool. Personal automation tool. · <a href="privacy.html">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
